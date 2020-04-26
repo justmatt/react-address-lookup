@@ -67,7 +67,7 @@ PostcodeLookup.defaultProps = {
 	apiKey: "PCW45-12345-12345-1234X",
 	identifer: "react-address-lookup",
   country: "UK",
-  postcodeOnly: false,
+  postcodeOnly: true,
 };
 PostcodeLookup.propTypes = {
 	apiKey: PropTypes.string,
